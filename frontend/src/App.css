@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Use Poppins as the global font */
+  background: linear-gradient(120deg, #ffffff, #e6e6e6, #cccccc, #b3b3b3);
+  background-size: 200% 200%;
+  animation: gradientAnimation 8s ease infinite;
+  color: #000; /* Optional: Set a default text color for better contrast */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

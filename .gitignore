@@ -1,0 +1,20 @@
+# ignore all node_modules anywhere
+node_modules/
+
+# explicit sub‑folders (optional, but clear)
+frontend/node_modules/
+backend/node_modules/
+
+# build and cache artifacts
+dist/
+.next/
+out/
+
+# logs and env files
+*.log
+.env
+frontend/.env
+backend/.env
+
+# Python virtualenv (if present)
+venv/
